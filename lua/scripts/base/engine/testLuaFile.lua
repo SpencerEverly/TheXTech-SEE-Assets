@@ -64,10 +64,12 @@ function testLuaFile.onPlayerKill(eventObj, playerIdx)
 end
 
 function testLuaFile.onPlayerKillEnd(eventObj, playerIdx)
-    if mem(0x00B2C5AC, FIELD_FLOAT) <= 0 and not Misc.inEditor() then
-        eventObj.cancelled = true
-        gotGameOver = true
-        Misc.pause()
+    if Level.filename() == "test1.lvlx" then
+        if mem(0x00B2C5AC, FIELD_FLOAT) <= 0 and not Misc.inEditor() then
+            eventObj.cancelled = true
+            gotGameOver = true
+            Misc.pause()
+        end
     end
 end
 
@@ -94,23 +96,24 @@ function testLuaFile.onTickPaint()
 end
 
 function testLuaFile.onDrawPaint()
-    if gotGameOver then
-        Text.print("GAME OVER", 310, 290)
-        gameOverTimer = gameOverTimer + 1
-        if gameOverTimer == 1 then
-            Audio.SfxPlay("sound/extended/game-over.ogg")
-        end
-        if gameOverTimer >= lunatime.toTicks(7) then
-            Misc.unpause()
-            mem(0x00B2C5AC, FIELD_FLOAT, 3)
-            Level.exit()
-        end
-    end
     if Level.filename() == "test1.lvlx" then
         Text.print("TIME: "..tostring(math.ceil(testLuaFile.getLevelTime())), (ScreenW / 2 - 77), 80)
         
         Graphics.drawImage(1, (ScreenW / 2 - 50), 80)
         --Graphics.drawImage(2, (ScreenW / 2), 80)
+        
+        if gotGameOver then
+            Text.print("GAME OVER", 310, 290)
+            gameOverTimer = gameOverTimer + 1
+            if gameOverTimer == 1 then
+                Audio.SfxPlay("sound/extended/game-over.ogg")
+            end
+            if gameOverTimer >= lunatime.toTicks(7) then
+                Misc.unpause()
+                mem(0x00B2C5AC, FIELD_FLOAT, 3)
+                Level.exit()
+            end
+        end
     end
     if Level.filename() == "intro.lvl" then
         Text.print(__LUNALUA_TITLESCREENVER, 0, 0)

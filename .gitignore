@@ -1,0 +1,7 @@
+gif-recordings/
+logs/
+settings/
+screenshots/
+thextech.exe
+*.dll
+luajit.exe

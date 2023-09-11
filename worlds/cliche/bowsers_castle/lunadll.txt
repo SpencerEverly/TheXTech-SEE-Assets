@@ -1,0 +1,7 @@
+#-1
+IfSpeedRunMode,0,0,0,1010,1,0 // Speed run disabled
+
+#1010
+TriggerSMBXEvent,0,0,0,0,1,BillyGun
+
+#END

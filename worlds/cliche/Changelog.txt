@@ -1,0 +1,5 @@
+* Removed all mentions of "Mario" and "Daisy" in the Textboxes
+* Replaced Daisy Sprites in the Castles with Peach
+* Added Playable Daisy Sprites
+* Fixed Softlock in Level 1 (Layer: Softlock, disabled in Mode2/3)
+* Added Billy Gun at Final Boss (Layer: BillyGun, disabled in Mode2/3)

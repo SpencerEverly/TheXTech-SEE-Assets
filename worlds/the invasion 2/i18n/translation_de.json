@@ -1,0 +1,1174 @@
+{
+    " episode_title": "",
+    " episode_world": "world.wld",
+    "bonus1.lvl": {
+        "events": [
+            {
+                "i": 3,
+                "msg": "",
+                "orig": "You boys better get off my lawn!",
+                "u": true
+            }
+        ],
+        "npc": [
+            {
+                "i": 5,
+                "orig": "Stay outta my house.  The door's locked and I don't even want you thinkin' about going down my chimney.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 6,
+                "orig": "I can't believe you broke into my house.  You better not have hurt Hugo!",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "bonus2.lvl": {
+        "npc": [
+            {
+                "i": 6,
+                "orig": "Take anything you want!",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "bonus3.lvl": {
+        "events": [
+            {
+                "i": 9,
+                "msg": "",
+                "orig": "You can have my treasure!",
+                "u": true
+            }
+        ],
+        "npc": [
+            {
+                "i": 3,
+                "orig": "Welcome!  Please take anything that can help you on your journey.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "bonus4.lvl": {
+        "npc": [
+            {
+                "i": 0,
+                "orig": "The pink Yoshi spits out veggies after swallowing it's enemies.  The purple Yoshi can do a ground pound by pressing down.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "bonus5.lvl": {
+        "npc": [
+            {
+                "i": 0,
+                "orig": "This item has the power to stop time!",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 2,
+                "orig": "This is our vault.  Please take anything that could be of use.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 8,
+                "orig": "Lakitu's Shoe is very special. It gives the wearer the power of flight!",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 11,
+                "orig": "This egg contains a very rare Yoshi, please treat him well.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 12,
+                "orig": "We are Lumas, guardians of the Star Palace.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 13,
+                "orig": "The girl in the blue dress is Rosalina!",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 14,
+                "orig": "This is the Star Palace.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 15,
+                "orig": "Welcome to the Star Palace!  There are special treasures waiting for you if you can collect enough stars.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "dungeon1.lvl": {
+        "events": [
+            {
+                "i": 12,
+                "msg": "",
+                "orig": "Some enemies can be picked up if you hold down and press run while standing on them.",
+                "u": true
+            }
+        ]
+    },
+    "dungeon4.lvl": {
+        "npc": [
+            {
+                "i": 63,
+                "orig": "What took you so long?  Let's go.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level0.lvl": {
+        "events": [
+            {
+                "i": 5,
+                "msg": "",
+                "orig": "Don't look at me like that...  Something bad is happening!",
+                "u": true
+            },
+            {
+                "i": 6,
+                "msg": "",
+                "orig": "Bowser has joined forces with villians from other realities and is invading The Mushroom Kingdom.",
+                "u": true
+            },
+            {
+                "i": 7,
+                "msg": "",
+                "orig": "Please go foil Bowser's plans like you always do.",
+                "u": true
+            }
+        ],
+        "npc": [
+            {
+                "i": 0,
+                "orig": "Please be careful, the road ahead is dangerous.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 2,
+                "orig": "They wouldn't let me in, but I had to talk to you.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 3,
+                "orig": "A princess should not be making house calls to a plumber!",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 4,
+                "orig": "Oh no, where did the Princess go?",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level1.lvl": {
+        "events": [
+            {
+                "i": 10,
+                "msg": "Alles, was Sie tun müssen, ist das Pause-Menü zu öff-\nnen und nach LINKS oder RECHTS zu drücken.",
+                "orig": "All you have to do is pause the game and press left or right.",
+                "u": true
+            }
+        ],
+        "npc": [
+            {
+                "i": 5,
+                "orig": "Did you know that you can change your character at the world map screen?",
+                "talk": "Weißt du, dass es möglich ist, seinen Charakter auf der Weltkarte zu wechseln?",
+                "u": true
+            },
+            {
+                "i": 48,
+                "orig": "I hope that was helpful.",
+                "talk": "Ich hoffe, du hast es geb-\nraucht.",
+                "u": true
+            },
+            {
+                "i": 49,
+                "orig": "Aren't you that plumber that everyone keeps talking about?  Here, you can have what's in this chest.",
+                "talk": "Bist du zufällig der fal-\nsche Klempner, über den alle reden? Nimm etwas aus dieser Truhe.",
+                "u": true
+            }
+        ]
+    },
+    "level10.lvl": {
+        "npc": [
+            {
+                "i": 24,
+                "orig": "Help, I can't swim!",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level12.lvl": {
+        "npc": [
+            {
+                "i": 2,
+                "orig": "Where are all those mushrooms coming from?",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level13.lvl": {
+        "npc": [
+            {
+                "i": 97,
+                "orig": "What's wrong with you, why did you smash my eggs?  Get out of here, jerk!",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 98,
+                "orig": "You look like an honest guy.  I'll let you pass, just be carefull with my eggs.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level15.lvl": {
+        "npc": [
+            {
+                "i": 13,
+                "orig": "The glowing thing above us is the Billy Gun.  Once you grab it you better hold on tight!",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level18.lvl": {
+        "npc": [
+            {
+                "i": 1,
+                "orig": "I've been waiting in line forever!",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 3,
+                "orig": "This place looks so fun.  I can't wait to get it!",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 4,
+                "orig": "Hey you! No cutting in line.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 15,
+                "orig": "Let me out!  Let me OUT!",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 16,
+                "orig": "He tricked us.  There are monsters everywhere.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level19.lvl": {
+        "npc": [
+            {
+                "i": 23,
+                "orig": "I bet something good will happen if you collect all the Blue Coins!",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level2.lvl": {
+        "npc": [
+            {
+                "i": 47,
+                "orig": "I wonder what's in that pipe above us?  Maybe I could make it up there if I had a giant shoe or something to jump out of.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level21.lvl": {
+        "npc": [
+            {
+                "i": 20,
+                "orig": "Shouldn't this level be in the Ice World?  Whatever...",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level22.lvl": {
+        "npc": [
+            {
+                "i": 109,
+                "orig": "I AM ERROR.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level23.lvl": {
+        "npc": [
+            {
+                "i": 228,
+                "orig": "Until reciently, the moles that live here used to be friendly.  Something has happened that is causing them to behave aggressively.  Be careful!",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level25.lvl": {
+        "npc": [
+            {
+                "i": 96,
+                "orig": "Why is it called Pwnhammer anyway?",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level26.lvl": {
+        "npc": [
+            {
+                "i": 157,
+                "orig": "Those blue plants look suspicious.  If you grab them you better not let go!",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level27.lvl": {
+        "events": [
+            {
+                "i": 17,
+                "msg": "",
+                "orig": "If you hold down and press run on the part of the ship that is glowing blue, you will get a special item!",
+                "u": true
+            }
+        ],
+        "npc": [
+            {
+                "i": 7,
+                "orig": "Bowser's airships are invading!",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 13,
+                "orig": "Help!",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 43,
+                "orig": "Hurry up and get on.  They are about to leave without you!",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level28.lvl": {
+        "npc": [
+            {
+                "i": 6,
+                "orig": "I hope it serves you well.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 7,
+                "orig": "These are Podoboo's Shoes. They allow their wearers to walk on lava!",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level29.lvl": {
+        "npc": [
+            {
+                "i": 9,
+                "orig": "Do you have anything to eat?  I have been lost in here for days.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level3.lvl": {
+        "npc": [
+            {
+                "i": 19,
+                "orig": "I can't believe that pipe goes all the way up here.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level34.lvl": {
+        "npc": [
+            {
+                "i": 83,
+                "orig": "The enemy ahead can be tough.  Use the turnips to take him out as soon as possible.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level35.lvl": {
+        "npc": [
+            {
+                "i": 407,
+                "orig": "It's dangerous to go alone! Take this.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level38.lvl": {
+        "npc": [
+            {
+                "i": 182,
+                "orig": "You better move quick, those platforms don't look sturdy.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level4.lvl": {
+        "npc": [
+            {
+                "i": 1,
+                "orig": "This level is red on the world map.  That means there is a secret exit here somewhere.  Can you find it?",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level41.lvl": {
+        "npc": [
+            {
+                "i": 54,
+                "orig": "I dropped all my Frog Coins.  If you find them for me I will give you a reward.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 55,
+                "orig": "You're the best!",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 56,
+                "orig": "You found all my Frog Coins!  Please take this treasure.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level44.lvl": {
+        "npc": [
+            {
+                "i": 23,
+                "orig": "You brought me all the Red Coins!  Please take my treasure as a reward.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 24,
+                "orig": "I will give you something special if you bring me all the Red Coins.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 25,
+                "orig": "Thanks again!",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level45.lvl": {
+        "npc": [
+            {
+                "i": 33,
+                "orig": "Those bubbles look pretty strong.  I wonder if you could actually swim in them?",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level46.lvl": {
+        "npc": [
+            {
+                "i": 29,
+                "orig": "The Clown Car is weak on the top side.  It will hurt if an enemy touches you there.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 30,
+                "orig": "You can stack those cannons on the Clown Car and fire them while driving!",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level5.lvl": {
+        "events": [
+            {
+                "i": 6,
+                "msg": "",
+                "orig": "You can throw a shell in many different ways depending on the direction you are holding the control pad when you let go of the run button.",
+                "u": true
+            }
+        ],
+        "npc": [
+            {
+                "i": 69,
+                "orig": "You can have anything you find in there.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 70,
+                "orig": "You got rid of all the purple blocks!  As a reward I'll open this door for you.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 71,
+                "orig": "I've been ordered to get rid of all the purple blocks.  I'm going to be here all night.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level6.lvl": {
+        "events": [
+            {
+                "i": 3,
+                "msg": "",
+                "orig": "Hold DOWN and press the RUN button to grab enemies while standing on them.",
+                "u": true
+            }
+        ]
+    },
+    "level7.lvl": {
+        "npc": [
+            {
+                "i": 148,
+                "orig": "If we are underground, why can I still see the sky?",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level8.lvl": {
+        "npc": [
+            {
+                "i": 298,
+                "orig": "You can't take this through the pipe.  Try hitting it now and see if anything happens on the other side.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 300,
+                "orig": "I wonder what's on the other side of this wall?  I bet if I had a hammer I could smash through it.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "level9.lvl": {
+        "npc": [
+            {
+                "i": 12,
+                "orig": "My rocket was hit by one of those bombs.  Now I'm stuck here.",
+                "talk": "",
+                "u": true
+            }
+        ]
+    },
+    "world.wld": {
+        "credits": "",
+        "credits-orig": "Redigit\n",
+        "credits-u": true,
+        "levels": [
+            {
+                "i": 0,
+                "orig": "Megaton Vase Hole",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 1,
+                "orig": "Warp to Subcon Underground",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 2,
+                "orig": "Grassy Grass Grasslands",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 3,
+                "orig": "The Lost Woods",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 4,
+                "orig": "Warp to Frosty Frost Frostlands",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 5,
+                "orig": "Dungeon of Pain",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 6,
+                "orig": "Misplaced Pipehammer Maze",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 7,
+                "orig": "The Mole Hole",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 8,
+                "orig": "Subcon Nightmare Land",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 9,
+                "orig": "Super Easy Road",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 10,
+                "orig": "Warp to Subcon Underground",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 11,
+                "orig": "Warp to Mushroom Plains",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 12,
+                "orig": "White Savage Zone",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 13,
+                "orig": "Warp to the Subcon Underground",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 14,
+                "orig": "Warp to Frosty Frost Frostlands",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 15,
+                "orig": "Warp to Subcon Underground",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 16,
+                "orig": "Warp to Frosty Frost Frostlands",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 17,
+                "orig": "Warp to the Mushroom Plains",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 18,
+                "orig": "Warp to Koopa Kingdom",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 19,
+                "orig": "Floating Brick Niche",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 20,
+                "orig": "Frigid Awesome Land",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 21,
+                "orig": "DO NOT ENTER",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 22,
+                "orig": "Warp to Dino Island",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 23,
+                "orig": "Warp to Frosty Frost Frostlands",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 24,
+                "orig": "The Invasion",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 25,
+                "orig": "Painful Playland",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 26,
+                "orig": "Warp to the Mushroom Plains",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 27,
+                "orig": "The Bros. Pad",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 28,
+                "orig": "Get Off My Lawn",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 29,
+                "orig": "Warp to Frosty Frost Frostlands",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 30,
+                "orig": "Field of Shotgun Vases",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 31,
+                "orig": "Star Warp",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 32,
+                "orig": "Random Water Level",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 33,
+                "orig": "The Suck",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 34,
+                "orig": "Super Nostalgia World",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 35,
+                "orig": "Jumpy Hoppy Turtle Zone",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 36,
+                "orig": "Star Warp",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 37,
+                "orig": "Star Warp",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 38,
+                "orig": "Brick Hole Massacre",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 39,
+                "orig": "Star Warp",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 40,
+                "orig": "Flying Raccoon Zone",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 41,
+                "orig": "Pwnhammer Duece",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 42,
+                "orig": "Super Pipe Action Town",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 43,
+                "orig": "Dungeon of Strange Happenings",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 44,
+                "orig": "Go Go Goomba",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 45,
+                "orig": "Switch Action Zone",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 46,
+                "orig": "The Great Fish Fiasco",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 47,
+                "orig": "Another Bonus Area",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 48,
+                "orig": "Retroville",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 49,
+                "orig": "Warp to Dino Island",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 50,
+                "orig": "Warp to Wet Water Zone",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 51,
+                "orig": "A Short Level",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 52,
+                "orig": "Secret Squirrel Area",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 53,
+                "orig": "Warp to Frosty Frost Frostlands",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 54,
+                "orig": "Dungeon of Agony",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 55,
+                "orig": "Warp to Koopa Kingdom",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 56,
+                "orig": "Pwnhammer",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 57,
+                "orig": "Warp to Koopa Kingdom",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 58,
+                "orig": "Underground Battle Arena",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 59,
+                "orig": "Warp to Wet Water Zone",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 60,
+                "orig": "The Treasure House",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 61,
+                "orig": "Warp to The Hurtful Hotlands",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 62,
+                "orig": "Panic Zone",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 63,
+                "orig": "Star Warp",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 64,
+                "orig": "Pyramid Action Machine",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 65,
+                "orig": "Warp to Koopa Kingdom",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 66,
+                "orig": "Pyramid of Fail",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 67,
+                "orig": "The Hot Boot",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 68,
+                "orig": "Lakitu War Zone",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 69,
+                "orig": "Desert Maze",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 70,
+                "orig": "Star Warp",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 71,
+                "orig": "The Rawest Forest",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 72,
+                "orig": "The Invasion 2",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 73,
+                "orig": "Warp to The Rawest Forest",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 74,
+                "orig": "Sandy Ghosty Hammer Town",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 75,
+                "orig": "Shell Heaven",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 76,
+                "orig": "Dungeon of Inappropriate Phrases",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 77,
+                "orig": "Warp to The Hurtful Hotlands",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 78,
+                "orig": "Warp to The Lava Hole",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 79,
+                "orig": "The Invasion 3",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 80,
+                "orig": "Token Water Level",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 81,
+                "orig": "Oldschool Plumbers",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 82,
+                "orig": "The Water is Not a Lie",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 83,
+                "orig": "Bubbles in the Sky",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 84,
+                "orig": "Warp to the Rawest Forest",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 85,
+                "orig": "Star Warp",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 86,
+                "orig": "The Invasion 4",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 87,
+                "orig": "Easymode Tanks",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 88,
+                "orig": "Hardmode Tanks",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 89,
+                "orig": "The King of Koopas",
+                "tit": "",
+                "u": true
+            },
+            {
+                "i": 90,
+                "orig": "Dire Dire Rocks",
+                "tit": "",
+                "u": true
+            }
+        ],
+        "title": "",
+        "title-orig": "The Invasion 2",
+        "title-u": true
+    }
+}

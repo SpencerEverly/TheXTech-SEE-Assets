@@ -1,0 +1,786 @@
+{
+    " episode_title": "The Princess Cliche",
+    " episode_world": "world.wldx",
+    "bowsers_castle.lvlx": {
+        "dialogues": [
+            {
+                "messages": [
+                    "npc-2-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "event-5-msg",
+                    "event-12-msg"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "event-9-msg"
+                ],
+                "note": ""
+            }
+        ],
+        "events": [
+            {
+                "i": 5,
+                "msg": "You're here! I was afraid you weren't going to come for me this time.",
+                "trig": 12
+            },
+            {
+                "i": 9,
+                "msg": "HELP!!!",
+                "trig": 10
+            },
+            {
+                "by-event": [
+                    5
+                ],
+                "i": 12,
+                "msg": "Bowser: Say goodbye to your precious princess."
+            }
+        ],
+        "npc": [
+            {
+                "i": 2,
+                "t": 71,
+                "talk": "Hahaha. You're not getting in here. This door has been magically sealed. You would have to gather 10 star pieces to open it. Get lost punk!"
+            }
+        ]
+    },
+    "deep_cave.lvlx": {
+        "dialogues": [
+            {
+                "messages": [
+                    "npc-10-talk"
+                ],
+                "note": ""
+            }
+        ],
+        "npc": [
+            {
+                "i": 10,
+                "t": 94,
+                "talk": "I came down here looking for treasure, but all these blocks are in the way."
+            }
+        ]
+    },
+    "dream_world.lvlx": {
+    },
+    "frost_house.lvlx": {
+        "dialogues": [
+            {
+                "messages": [
+                    "npc-0-talk"
+                ],
+                "note": ""
+            }
+        ],
+        "npc": [
+            {
+                "i": 0,
+                "t": 94,
+                "talk": "They say this door leads to the Dream World. I just can't seem to get it open."
+            }
+        ]
+    },
+    "frost_land.lvlx": {
+        "dialogues": [
+            {
+                "messages": [
+                    "npc-17-talk"
+                ],
+                "note": ""
+            }
+        ],
+        "npc": [
+            {
+                "i": 17,
+                "t": 75,
+                "talk": "I'm freezing!"
+            }
+        ]
+    },
+    "frost_warp.lvlx": {
+        "dialogues": [
+            {
+                "messages": [
+                    "npc-5-talk"
+                ],
+                "note": ""
+            }
+        ],
+        "npc": [
+            {
+                "i": 5,
+                "t": 94,
+                "talk": "This pipe leads to the Frosty Frost Frostlands. Have a safe trip!"
+            }
+        ]
+    },
+    "fungi_village.lvlx": {
+        "dialogues": [
+            {
+                "messages": [
+                    "npc-3-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-5-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-8-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-9-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-11-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-12-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-13-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-14-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-15-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-16-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-19-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "event-8-msg"
+                ],
+                "note": ""
+            }
+        ],
+        "events": [
+            {
+                "i": 8,
+                "msg": "Thief! Now I will show you my true form!",
+                "trig": 10
+            }
+        ],
+        "npc": [
+            {
+                "i": 3,
+                "t": 75,
+                "talk": "Help, goombas are invading my basement!"
+            },
+            {
+                "i": 5,
+                "t": 94,
+                "talk": "Get out of my house!"
+            },
+            {
+                "i": 8,
+                "t": 94,
+                "talk": "This treasure could help you defeat Bowser.  Too bad it's mine!  I don't even want you looking at it."
+            },
+            {
+                "i": 9,
+                "t": 94,
+                "talk": "I heard there is a star hidden in a cave under Mushroom Pass."
+            },
+            {
+                "i": 11,
+                "t": 94,
+                "talk": "So, you are looking for stars? I would ask around town."
+            },
+            {
+                "i": 12,
+                "t": 75,
+                "talk": "That thief stole my pie!"
+            },
+            {
+                "i": 13,
+                "t": 94,
+                "talk": "It's a wonderful night in Fungi Village!"
+            },
+            {
+                "i": 14,
+                "t": 94,
+                "talk": "Nom nom nom."
+            },
+            {
+                "i": 15,
+                "t": 94,
+                "talk": "You're looking for stars so you can get into Bowser's castle? I'll let you borrow mine.",
+                "trig": 4
+            },
+            {
+                "i": 16,
+                "t": 94,
+                "talk": "Please give it back when you are done."
+            },
+            {
+                "i": 19,
+                "t": 94,
+                "talk": "Das ist mein haustier koopa."
+            }
+        ]
+    },
+    "marios_pad.lvlx": {
+        "dialogues": [
+            {
+                "messages": [
+                    "npc-1-talk",
+                    "event-7-msg"
+                ],
+                "note": "First talk to Toad"
+            },
+            {
+                "messages": [
+                    "npc-2-talk"
+                ],
+                "note": "Second talk to Toad"
+            }
+        ],
+        "events": [
+            {
+                "by-npc": [
+                    1
+                ],
+                "i": 7,
+                "msg": "Don't forget to grab a few mushrooms from the basement."
+            }
+        ],
+        "npc": [
+            {
+                "i": 1,
+                "t": 94,
+                "talk": "The Princess was looking for you. She said something about a cake. Why don't you head for the castle to meet her?",
+                "trig": 7
+            },
+            {
+                "i": 2,
+                "t": 94,
+                "talk": "You had better get a move on!"
+            }
+        ]
+    },
+    "mushroom_castle.lvlx": {
+        "dialogues": [
+            {
+                "messages": [
+                    "npc-1-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-2-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-3-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-4-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-5-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-6-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-7-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-8-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-9-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-10-talk"
+                ],
+                "note": ""
+            }
+        ],
+        "npc": [
+            {
+                "i": 1,
+                "t": 75,
+                "talk": "Help, the toilet is overflowing!"
+            },
+            {
+                "i": 2,
+                "t": 94,
+                "talk": "Bowser has once again kidnapped the princess. Take the warp pipe to Vista Hill and rescue her."
+            },
+            {
+                "i": 3,
+                "t": 75,
+                "talk": "It's terrible!"
+            },
+            {
+                "i": 4,
+                "t": 94,
+                "talk": "The princess has been kidnapped!"
+            },
+            {
+                "i": 5,
+                "t": 94,
+                "talk": "Go talk to the Chancellor."
+            },
+            {
+                "i": 6,
+                "t": 75,
+                "talk": "Help!"
+            },
+            {
+                "i": 7,
+                "t": 75,
+                "talk": "I can't hold it anymore!"
+            },
+            {
+                "i": 8,
+                "t": 75,
+                "talk": "Bowser was here!"
+            },
+            {
+                "i": 9,
+                "t": 94,
+                "talk": "I'm waiting in line to use the bathroom."
+            },
+            {
+                "i": 10,
+                "t": 94,
+                "talk": "Toad always takes so long."
+            }
+        ]
+    },
+    "mushroom_heights.lvlx": {
+        "dialogues": [
+            {
+                "messages": [
+                    "npc-14-talk"
+                ],
+                "note": ""
+            }
+        ],
+        "npc": [
+            {
+                "i": 14,
+                "t": 94,
+                "talk": "What are you doing all the way up here? Be careful not to fall off, it's a loooong way down!"
+            }
+        ]
+    },
+    "mushroom_pass.lvlx": {
+        "dialogues": [
+            {
+                "messages": [
+                    "npc-48-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-58-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-59-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-85-talk"
+                ],
+                "note": ""
+            }
+        ],
+        "npc": [
+            {
+                "i": 48,
+                "t": 94,
+                "talk": "Bowser's minions have taken over this road. Be careful!"
+            },
+            {
+                "i": 58,
+                "t": 94,
+                "talk": "Great. Now I will never get home."
+            },
+            {
+                "i": 59,
+                "t": 94,
+                "talk": "They've destroyed the bridge! You will have to find another way around."
+            },
+            {
+                "i": 85,
+                "t": 94,
+                "talk": "Be careful. There is a pink dino up ahead that won't let anyone through."
+            }
+        ]
+    },
+    "nimbus_land.lvlx": {
+        "dialogues": [
+            {
+                "messages": [
+                    "npc-6-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-7-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-8-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-25-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-26-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-27-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-28-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-32-talk"
+                ],
+                "note": ""
+            }
+        ],
+        "npc": [
+            {
+                "i": 6,
+                "t": 94,
+                "talk": "We get along with all flying creatures here."
+            },
+            {
+                "i": 7,
+                "t": 94,
+                "talk": "If you can open these boxes you can have what's inside."
+            },
+            {
+                "i": 8,
+                "t": 94,
+                "talk": "We don't get many visitors here."
+            },
+            {
+                "i": 25,
+                "t": 94,
+                "talk": "Welcome to Nimbus Land!"
+            },
+            {
+                "i": 26,
+                "t": 75,
+                "talk": "I'M AFRAID OF HEIGHTS!"
+            },
+            {
+                "i": 27,
+                "t": 94,
+                "talk": "I think you may find what you are looking for here."
+            },
+            {
+                "i": 28,
+                "t": 94,
+                "talk": "I love it here!"
+            },
+            {
+                "i": 32,
+                "t": 94,
+                "talk": "Prince Mallow is out right now, but you can take his clown car."
+            }
+        ]
+    },
+    "spiny_farm.lvlx": {
+        "dialogues": [
+            {
+                "messages": [
+                    "npc-9-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-10-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-17-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-76-talk"
+                ],
+                "note": ""
+            }
+        ],
+        "npc": [
+            {
+                "i": 9,
+                "t": 94,
+                "talk": "I wouldn't go in there."
+            },
+            {
+                "i": 10,
+                "t": 75,
+                "talk": "Get me out of here!"
+            },
+            {
+                "i": 17,
+                "t": 94,
+                "talk": "That jerk tricked us. Now we are stuck down here."
+            },
+            {
+                "i": 76,
+                "t": 101,
+                "talk": "Stars eh? I think I might have one in my closet."
+            }
+        ]
+    },
+    "star_road.lvlx": {
+        "dialogues": [
+            {
+                "messages": [
+                    "npc-8-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-9-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-10-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-11-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-14-talk"
+                ],
+                "note": ""
+            },
+            {
+                "messages": [
+                    "npc-15-talk"
+                ],
+                "note": ""
+            }
+        ],
+        "npc": [
+            {
+                "i": 8,
+                "t": 94,
+                "talk": "This door leads to the Forgotten Forest."
+            },
+            {
+                "i": 9,
+                "t": 94,
+                "talk": "This door leads to the Ghastly Ghosthouse."
+            },
+            {
+                "i": 10,
+                "t": 94,
+                "talk": "This door leads to the Hurtful Hotlands."
+            },
+            {
+                "i": 11,
+                "t": 94,
+                "talk": "This door leads to Retro Town."
+            },
+            {
+                "i": 14,
+                "t": 94,
+                "talk": "Welcome to Star Road Station!"
+            },
+            {
+                "i": 15,
+                "t": 94,
+                "talk": "Be careful if you go in here. It's dangerous!"
+            }
+        ]
+    },
+    "vista_hill_warp.lvlx": {
+    },
+    "world.wldx": {
+        "credits": "Redigit\n",
+        "credits-n": "Redigit\n",
+        "levels": [
+            {
+                "f": "star_road.lvlx",
+                "i": 0,
+                "tit": "Star Road Station"
+            },
+            {
+                "f": "frost_warp.lvlx",
+                "i": 1,
+                "tit": "Warp to Mushroom Castle"
+            },
+            {
+                "f": "nimbus_land.lvlx",
+                "i": 2,
+                "tit": "Nimbus Land"
+            },
+            {
+                "f": "frost_land.lvlx",
+                "i": 3,
+                "tit": "Frosty Frost Frostland"
+            },
+            {
+                "f": "fungi_village.lvlx",
+                "i": 4,
+                "tit": "Fungi Village"
+            },
+            {
+                "f": "vista_hill_warp.lvlx",
+                "i": 5,
+                "tit": "Warp to Mushroom Castle"
+            },
+            {
+                "f": "mushroom_castle.lvlx",
+                "i": 6,
+                "tit": "Mushroom Castle"
+            },
+            {
+                "f": "vista_hill_warp.lvlx",
+                "i": 7,
+                "tit": "Warp to Vista Hill"
+            },
+            {
+                "f": "frost_house.lvlx",
+                "i": 8,
+                "tit": "Strange House"
+            },
+            {
+                "f": "mushroom_heights.lvlx",
+                "i": 9,
+                "tit": "Mushroom Heights"
+            },
+            {
+                "f": "spiny_farm.lvlx",
+                "i": 10,
+                "tit": "Spiny Farm"
+            },
+            {
+                "f": "mushroom_pass.lvlx",
+                "i": 11,
+                "tit": "Mushroom Pass"
+            },
+            {
+                "f": "frost_warp.lvlx",
+                "i": 12,
+                "tit": "Warp to Frostland"
+            },
+            {
+                "f": "marios_pad.lvlx",
+                "i": 13,
+                "tit": "Mario's Pad"
+            },
+            {
+                "f": "bowsers_castle.lvlx",
+                "i": 14,
+                "tit": "Bowser's Castle"
+            }
+        ],
+        "title": "The Princess Cliche"
+    }
+}

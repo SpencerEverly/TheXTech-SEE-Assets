@@ -1,0 +1,87 @@
+== TheXTech with Super Mario Bros. X assets ==
+
+This package contains multiple parts are licensed differently:
+
+- The game engine itself (TheXTech)
+- SDL2 multimedia layer library (SDL2)
+- SDL Mixer X an audio library (MixerX)
+- Guide documents (PDF and ODT) (Guide)
+- Graphical resources represented from several classic games (GFX)
+- Music resources, represented from several classic games (Music)
+- Sound effects resources, represented from several classic games (SFX)
+
+
+A part of included here resources are copyrighted by Nintendo, use them fairly!
+
+
+== TheXTech ==
+The full source code of the engine is licensed under the GPLv3 license.
+
+A license file: https://github.com/Wohlstand/TheXTech/blob/master/LICENSE
+
+
+== SDL2 ==
+The full source code of the SDL2 library is licensed under the ZLib license.
+
+A license file: https://hg.libsdl.org/SDL/file/2ef60abd9132/COPYING.txt
+
+== MixerX ==
+The full source code of the MixerX library is licensed under the ZLib license.
+
+A license file: https://github.com/WohlSoft/SDL-Mixer-X/blob/master/COPYING.txt
+
+Included assembly here contains statically linked components are licensed differently:
+- libADLMIDI: GNU LGPLv3+ or GNU GPLv3+
+- libFLAC: Multiple: BSD 3-clause "New" or "Revised" License (libFLAC, libFLAC++), GNU GPL (extra plugins and tools)
+- libFluidLite: GNU LGPLv2.1+
+- libGME: GNU LGPLv2.1+
+- libMAD: GNU GPLv2+ (a.k.a. v2 or any later version)
+- libMikMod: GNU LGPLv2+
+- libModPlug: Public Domain
+- libOGG: BSD 3-clause "New" or "Revised" License
+- libOPNMIDI: GNU LGPLv3+ or GNU GPLv3+
+- libTimidity-SDL: The "Artistic License"
+- libVorbis: BSD 3-clause "New" or "Revised" License
+- libXMP: GNU LGPLv2+, partially MIT
+- libZlib: ZLib license
+
+
+== Guide ==
+It's a modified manual made by "Blue" (Jeremy Guerrette) for SMBX originally. I am not sure which license can be applied for this guide. Originally this manual was shipped with the SMBX game for free use.
+
+
+== GFX ==
+Graphical resources were been represented by Redigit in a range between 2009~2010 year from sprite-sheets ripped from the next classic games:
+ - Super Mario Bros: All stars (1993)
+ - Super Mario World (1990-1992)
+ - Super Metroid (1994)
+ - Zelda II: The Adventure of Link (1987-1988)
+
+Their content is copyrighted, and you should don't use them for commercial purposes. Use them fairly!
+
+(c) All rights reserved by their respective owners.
+
+
+== Music ==
+This Music pack was created using copyrighted music, captured from the following Nintendo games:
+ - Super Mario Bros: All stars (1993)
+ - Super Mario World (1990-1992)
+ - Super Metroid (1994)
+ - Zelda II: The Adventure of Link (1987-1988)
+ - The Legend of Zelda: a Link to the past (1991-1992)
+ - Star Fox (1993)
+ - Super Mario 64 (1996)
+ - Super Smash bros. Brawl (2008)
+ - Super Mario Galaxy (2007)
+
+(c) All rights reserved by their respective owners.
+
+
+== SFX ==
+This Sound pack was created using copyrighted sounds, captured from the following Nintendo games:
+ - Super Mario Bros: All stars (1993)
+ - Super Mario World (1990-1992)
+ - Super Metroid (1994)
+ - The Legend of Zelda: a Link to the past (1991-1992)
+
+(c) All rights reserved by their respective owners.

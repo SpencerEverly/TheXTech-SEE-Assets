@@ -1,0 +1,430 @@
+{
+    " episode_title": "Клише принцессы",
+    " episode_world": "world.wldx",
+    "bowsers_castle.lvlx": {
+        "events": [
+            {
+                "i": 5,
+                "msg": "О, ты здесь! А то я уже боялась, что ты не придёшь за мной.",
+                "orig": "You're here! I was afraid you weren't going to come for me this time."
+            },
+            {
+                "i": 9,
+                "msg": "СПАСИТЕ!!!",
+                "orig": "HELP!!!"
+            },
+            {
+                "i": 12,
+                "msg": "Боузер: Скажи \"прощай\" своей дорогой принцессе.",
+                "orig": "Bowser: Say goodbye to your precious princess."
+            }
+        ],
+        "npc": [
+            {
+                "i": 2,
+                "orig": "Hahaha. You're not getting in here. This door has been magically sealed. You would have to gather 10 star pieces to open it. Get lost punk!",
+                "talk": "Хахаха. Ты сюда не вой-\nдёшь. Эта дверь запечатана магически. Ты должен соб-\nрать 10 звёзд, чтобы она открылась. Проваливай, сопляк!"
+            }
+        ]
+    },
+    "deep_cave.lvlx": {
+        "npc": [
+            {
+                "i": 10,
+                "orig": "I came down here looking for treasure, but all these blocks are in the way.",
+                "talk": "Я спустился сюда в поисках сокровищь, но тут преграда в виде всех этих блоков."
+            }
+        ]
+    },
+    "frost_house.lvlx": {
+        "npc": [
+            {
+                "i": 0,
+                "orig": "They say this door leads to the Dream World. I just can't seem to get it open.",
+                "talk": "Ходят слухи, что эта дверь ведёт в Мир Снов. Однако, она не хочет открываться..."
+            }
+        ]
+    },
+    "frost_land.lvlx": {
+        "npc": [
+            {
+                "i": 17,
+                "orig": "I'm freezing!",
+                "talk": "Я замерзаю!"
+            }
+        ]
+    },
+    "frost_warp.lvlx": {
+        "npc": [
+            {
+                "i": 5,
+                "orig": "This pipe leads to the Frosty Frost Frostlands. Have a safe trip!",
+                "talk": "Эта труба ведёт в Мороз-\nно-морозные земли. Удач-\nного пути!"
+            }
+        ]
+    },
+    "fungi_village.lvlx": {
+        "events": [
+            {
+                "i": 8,
+                "msg": "Вор! Щас приму свою истинную форму!",
+                "orig": "Thief! Now I will show you my true form!"
+            }
+        ],
+        "npc": [
+            {
+                "i": 3,
+                "orig": "Help, goombas are invading my basement!",
+                "talk": "Спасите, у меня в подвале завелись гумбы!"
+            },
+            {
+                "i": 5,
+                "orig": "Get out of my house!",
+                "talk": "Вон из моего дома!"
+            },
+            {
+                "i": 8,
+                "orig": "This treasure could help you defeat Bowser.  Too bad it's mine!  I don't even want you looking at it.",
+                "talk": "Это сокровище поможет тебе одолеть Боузера. Увы, но оно моё! Даже не думай смотреть на него."
+            },
+            {
+                "i": 9,
+                "orig": "I heard there is a star hidden in a cave under Mushroom Pass.",
+                "talk": "Ходят слухи, что в пещере под Грибным перевалом спрятана звезда."
+            },
+            {
+                "i": 11,
+                "orig": "So, you are looking for stars? I would ask around town.",
+                "talk": "Так так, ты ищешь звёзды? Я бы поспрашивал людей тут."
+            },
+            {
+                "i": 12,
+                "orig": "That thief stole my pie!",
+                "talk": "Этот нахал стырил мой пирожок!"
+            },
+            {
+                "i": 13,
+                "orig": "It's a wonderful night in Fungi Village!",
+                "talk": "Какая чудесная ночь в Грибной деревне!"
+            },
+            {
+                "i": 14,
+                "orig": "Nom nom nom.",
+                "talk": "Ням ням ням."
+            },
+            {
+                "i": 15,
+                "orig": "You're looking for stars so you can get into Bowser's castle? I'll let you borrow mine.",
+                "talk": "Ты случайно не ищешь звёзды, чтобы войти в замок Боузера? Я одолжу тебе свою. На!"
+            },
+            {
+                "i": 16,
+                "orig": "Please give it back when you are done.",
+                "talk": "Вернёшь, когда закончишь."
+            },
+            {
+                "i": 19,
+                "orig": "Das ist mein haustier koopa.",
+                "talk": "Дас ист майн хаустир купа."
+            }
+        ]
+    },
+    "marios_pad.lvlx": {
+        "events": [
+            {
+                "i": 7,
+                "msg": "Захвати несколько грибов из подвала.",
+                "orig": "Don't forget to grab a few mushrooms from the basement."
+            }
+        ],
+        "npc": [
+            {
+                "i": 1,
+                "orig": "The Princess was looking for you. She said something about a cake. Why don't you head for the castle to meet her?",
+                "talk": "Принцесса тебя искала. Она сказала что-то про пирог. Почему бы тебе не отпра-\nвится к ней на встречу в замок?"
+            },
+            {
+                "i": 2,
+                "orig": "You had better get a move on!",
+                "talk": "Тебе лучше поторопиться!"
+            }
+        ]
+    },
+    "mushroom_castle.lvlx": {
+        "npc": [
+            {
+                "i": 1,
+                "orig": "Help, the toilet is overflowing!",
+                "talk": "На помощь, унитаз льёт через край!"
+            },
+            {
+                "i": 2,
+                "orig": "Bowser has once again kidnapped the princess. Take the warp pipe to Vista Hill and rescue her.",
+                "talk": "Боузер снова похитил принцессу. Иди в трубу, ведущую на Аллейный холм и спаси её."
+            },
+            {
+                "i": 3,
+                "orig": "It's terrible!",
+                "talk": "Это ужасно!"
+            },
+            {
+                "i": 4,
+                "orig": "The princess has been kidnapped!",
+                "talk": "Принцесса похищена!"
+            },
+            {
+                "i": 5,
+                "orig": "Go talk to the Chancellor.",
+                "talk": "Поговори с канцлером."
+            },
+            {
+                "i": 6,
+                "orig": "Help!",
+                "talk": "На помощь!"
+            },
+            {
+                "i": 7,
+                "orig": "I can't hold it anymore!",
+                "talk": "Больше не могу терпеть!"
+            },
+            {
+                "i": 8,
+                "orig": "Bowser was here!",
+                "talk": "Боузер был здесь!"
+            },
+            {
+                "i": 9,
+                "orig": "I'm waiting in line to use the bathroom.",
+                "talk": "Жду здесь в очереди, чтобы воспользоваться душевой."
+            },
+            {
+                "i": 10,
+                "orig": "Toad always takes so long.",
+                "talk": "Тоад, как всегда, надолго."
+            }
+        ]
+    },
+    "mushroom_heights.lvlx": {
+        "npc": [
+            {
+                "i": 14,
+                "orig": "What are you doing all the way up here? Be careful not to fall off, it's a loooong way down!",
+                "talk": "Что ты всю дорогу делаешь? Будь осторожен, не упади, здесь оооооочень высоко!"
+            }
+        ]
+    },
+    "mushroom_pass.lvlx": {
+        "npc": [
+            {
+                "i": 48,
+                "orig": "Bowser's minions have taken over this road. Be careful!",
+                "talk": "Приспешники Боузера заняли эту дорогу. Будь осторожен!"
+            },
+            {
+                "i": 58,
+                "orig": "Great. Now I will never get home.",
+                "talk": "Браво, бис! Теперь вляд-ли вернусь домой."
+            },
+            {
+                "i": 59,
+                "orig": "They've destroyed the bridge! You will have to find another way around.",
+                "talk": "Гады, они разрушили мост!\nПридётся искать другие пути."
+            },
+            {
+                "i": 85,
+                "orig": "Be careful. There is a pink dino up ahead that won't let anyone through.",
+                "talk": "Берегись. Впереди розовый динозавр, который никого не пускает."
+            }
+        ]
+    },
+    "nimbus_land.lvlx": {
+        "npc": [
+            {
+                "i": 6,
+                "orig": "We get along with all flying creatures here.",
+                "talk": "Мы тут ладим со всеми крылатыми созданиями."
+            },
+            {
+                "i": 7,
+                "orig": "If you can open these boxes you can have what's inside.",
+                "talk": "Если сможешь открыть эти ящики, смело забирай их содержимое себе."
+            },
+            {
+                "i": 8,
+                "orig": "We don't get many visitors here.",
+                "talk": "У нас тут не так много по-\nсетителей."
+            },
+            {
+                "i": 25,
+                "orig": "Welcome to Nimbus Land!",
+                "talk": "Добро пожаловать в землю нимбов."
+            },
+            {
+                "i": 26,
+                "orig": "I'M AFRAID OF HEIGHTS!",
+                "talk": "Я БОЮСЬ ВЫСОТЫ!"
+            },
+            {
+                "i": 27,
+                "orig": "I think you may find what you are looking for here.",
+                "talk": "Думаю, ты сможешь найти здесь то, что ты ищешь."
+            },
+            {
+                "i": 28,
+                "orig": "I love it here!",
+                "talk": "Мне здесь нравится!"
+            },
+            {
+                "i": 32,
+                "orig": "Prince Mallow is out right now, but you can take his clown car.",
+                "talk": "Принц Мэллоу сейчас ото-\nшёл, но ты можешь пока-\nтаться на его клоуномобиле."
+            }
+        ]
+    },
+    "spiny_farm.lvlx": {
+        "npc": [
+            {
+                "i": 9,
+                "orig": "I wouldn't go in there.",
+                "talk": "Я бы не стал туда ходить."
+            },
+            {
+                "i": 10,
+                "orig": "Get me out of here!",
+                "talk": "Вытащите меня от сюда!"
+            },
+            {
+                "i": 17,
+                "orig": "That jerk tricked us. Now we are stuck down here.",
+                "talk": "Этот мерзавец обманул нас. Теперь мы тут застряли."
+            },
+            {
+                "i": 76,
+                "orig": "Stars eh? I think I might have one in my closet.",
+                "talk": "Звёзды, а? Мне кажется, у меня в шкафу валяется."
+            }
+        ]
+    },
+    "star_road.lvlx": {
+        "npc": [
+            {
+                "i": 8,
+                "orig": "This door leads to the Forgotten Forest.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 9,
+                "orig": "This door leads to the Ghastly Ghosthouse.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 10,
+                "orig": "This door leads to the Hurtful Hotlands.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 11,
+                "orig": "This door leads to Retro Town.",
+                "talk": "",
+                "u": true
+            },
+            {
+                "i": 14,
+                "orig": "Welcome to Star Road Station!",
+                "talk": "Добро пожаловать на станцию Звёздной тропы!"
+            },
+            {
+                "i": 15,
+                "orig": "Be careful if you go in here. It's dangerous!",
+                "talk": "Будь осторожен, если соби-\nраешься сюда. Тут опасно!"
+            }
+        ]
+    },
+    "world.wldx": {
+        "credits": "Redigit\n\nПеревод на русский:\nWohlstand",
+        "credits-n": "Redigit\n\nПеревод на русский:\nWohlstand",
+        "credits-orig": "Redigit\n",
+        "levels": [
+            {
+                "i": 0,
+                "orig": "Star Road Station",
+                "tit": "Станция Звёздной тропы"
+            },
+            {
+                "i": 1,
+                "orig": "Warp to Mushroom Castle",
+                "tit": "Путь к грибному замку"
+            },
+            {
+                "i": 2,
+                "orig": "Nimbus Land",
+                "tit": "Земля нимбов"
+            },
+            {
+                "i": 3,
+                "orig": "Frosty Frost Frostland",
+                "tit": "Морозно-морозная земля"
+            },
+            {
+                "i": 4,
+                "orig": "Fungi Village",
+                "tit": "Грибная деревня"
+            },
+            {
+                "i": 5,
+                "orig": "Warp to Mushroom Castle",
+                "tit": "Путь к грибному замку"
+            },
+            {
+                "i": 6,
+                "orig": "Mushroom Castle",
+                "tit": "Грибной замок"
+            },
+            {
+                "i": 7,
+                "orig": "Warp to Vista Hill",
+                "tit": "Путь к аллейному холму"
+            },
+            {
+                "i": 8,
+                "orig": "Strange House",
+                "tit": "Странный дом"
+            },
+            {
+                "i": 9,
+                "orig": "Mushroom Heights",
+                "tit": "Грибные высоты"
+            },
+            {
+                "i": 10,
+                "orig": "Spiny Farm",
+                "tit": "Ферма колючкиных"
+            },
+            {
+                "i": 11,
+                "orig": "Mushroom Pass",
+                "tit": "Грибной перевал"
+            },
+            {
+                "i": 12,
+                "orig": "Warp to Frostland",
+                "tit": "Путь в морозные земли"
+            },
+            {
+                "i": 13,
+                "orig": "Mario's Pad",
+                "tit": "Дом Марио"
+            },
+            {
+                "i": 14,
+                "orig": "Bowser's Castle",
+                "tit": "Замок Боузера"
+            }
+        ],
+        "title": "Клише принцессы",
+        "title-orig": "The Princess Cliche"
+    }
+}

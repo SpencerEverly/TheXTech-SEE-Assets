@@ -23,9 +23,12 @@ registerEvent(testLuaFile,"onPasteText")
 Graphics.loadImage("graphics/ui/", "Interface1", 1)
 Graphics.loadImage("graphics/ui/", "Time", 2)
 
+--24: CustomMusic
+--57-60: CustomMusic2-5
+
 function testLuaFile.onStart()
     if Level.filename() == "test1.lvlx" then
-        Audio.MusicChange(0, "BGM_24Hour_08_Sunny.mp3")
+        Audio.MusicChange(0, 58)
     end
 end
 
@@ -123,10 +126,10 @@ end
 function testLuaFile.onMessageBox(eventObj, messageText)
     if Level.filename() == "test1.lvlx" then
         if messageText == "test" then
-            Audio.MusicChange(0, "Egypt Megalovania.wav")
+            Audio.MusicChange(0, 24)
         end
         if messageText == "test2" then
-            Audio.MusicChange(0, "mus_temvillage.ogg")
+            Audio.MusicChange(0, 57)
             Player.speedY(1, -12)
             Player.speedX(1, 12)
         end

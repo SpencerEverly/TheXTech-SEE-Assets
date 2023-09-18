@@ -163,6 +163,42 @@ function Misc.dialogSimple(message)
     return Text.windowDebugSimple(tostring(message))
 end
 
+do
+	local function countSubstring(s1, s2)
+		return select(2, s1:gsub(s2, ""))
+	end
+
+	function Text.getSize(str, style)
+		--3 is default
+		local charWidth = 16
+		local spaceWidth = 16
+		local padding = 2
+		
+		local textWidth = 0
+		local textHeight = 16
+		
+		if style == 1 then
+			textHeight = 14
+			spaceWidth = 0
+		elseif style == 2 then
+			padding = 0
+		elseif style == 4 then
+			charWidth = 15
+			charHeight = 16
+			spaceWidth = 18
+			padding = 3
+		end
+		
+		local spaceCount = countSubstring(str, " ")
+		local strCount = #str
+		local charCount = #str - spaceCount
+		
+		textWidth = charCount * charWidth + math.max(charCount - 1,0) * padding + spaceCount * spaceWidth
+		
+		return textWidth, textHeight
+	end
+end
+
 local luaPath = "scripts/base/engine/"
 
 local EventManager = require(luaPath.."main_events")

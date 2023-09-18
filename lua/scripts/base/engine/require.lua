@@ -7,11 +7,11 @@ local string_sub = string.sub
 local string_len = string.len
 local string_lower = string.lower
 local string_byte = string.byte
-local getSMBXPath = Native.getSMBXPath
+local getSMBXPath = getSMBXPath
 local _G = _G
 
 -- Constant values
-local smbxPath = Native.getSMBXPath()
+local smbxPath = getSMBXPath()
 
 -- Function definitions
 local isAbsolutePath

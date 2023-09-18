@@ -100,10 +100,10 @@ end
 
 function testLuaFile.onDrawPaint()
     if Level.filename() == "test1.lvlx" then
-        Text.print("TIME: "..tostring(math.ceil(testLuaFile.getLevelTime())), (ScreenW / 2 - 77), 80)
+        Text.print(tostring(math.ceil(testLuaFile.getLevelTime())), 1, (ScreenW / 2 - 10), 80)
         
-        Graphics.drawImage(1, (ScreenW / 2 - 50), 80)
-        --Graphics.drawImage(2, (ScreenW / 2), 80)
+        Graphics.drawImage(1, (ScreenW / 2 - 30), 80)
+        Graphics.drawImage(2, (ScreenW / 2 - 50), 79)
         
         if gotGameOver then
             Text.print("GAME OVER", 310, 290)

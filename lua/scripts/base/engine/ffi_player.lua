@@ -1,9 +1,9 @@
 local ffi_player = {}
 
-function Player.isValid(pl)
-    local idx = Player.idx(pl)
+function PlayerLua.isValid(pl)
+    local idx = PlayerLua.idx(pl)
 
-    if (idx >= 0) and (idx <= Player.count()) then
+    if (idx >= 0) and (idx <= PlayerLua.count()) then
         return true
     end
 
@@ -11,34 +11,15 @@ function Player.isValid(pl)
 end
 
 local PlayerFields = {
-        idx                   = {get = Player.idx, readonly = true},
-        isValid               = {get = playerGetIsValid, readonly = true},
-        x                     = {get = Player.x, set = Player.x},
-        y                     = {get = Player.y, set = Player.y},
-        speedX                = {get = Player.speedX, set = Player.speedX},
-        speedY                = {get = Player.speedY, set = Player.speedY},
-        width                 = {get = Player.width, readonly = true},
-        height                = {get = Player.height, readonly = true},
+        idx                   = {get = PlayerLua.idx, readonly = true},
+        isValid               = {get = PlayerLua.isValid, readonly = true},
+        x                     = {get = PlayerLua.x, set = PlayerLua.x},
+        y                     = {get = PlayerLua.y, set = PlayerLua.y},
+        speedX                = {get = PlayerLua.speedX, set = PlayerLua.speedX},
+        speedY                = {get = PlayerLua.speedY, set = PlayerLua.speedY},
+        width                 = {get = PlayerLua.width, set = PlayerLua.width},
+        height                = {get = PlayerLua.height, set = PlayerLua.height},
 }
-
-local function getOrSetPlayerValue(func, idx, value)
-    if idx == nil then
-        idx = 1
-    end
-    
-    for k,v in ipairs(PlayerFields) do
-        if PlayerFields[k].get == func and PlayerFields[k].readonly ~= nil and not getOrSet then
-            error("Read only value "..tostring(getOrSet).." can't be set")
-            return
-        end
-        
-        if PlayerFields[k].get == func and value == nil then
-            return func(idx)
-        elseif PlayerFields[k].set == func and value ~= nil then
-            return func(idx, value)
-        end
-    end
-end
 
 local KEYS_UP = false
 local KEYS_RELEASED = nil

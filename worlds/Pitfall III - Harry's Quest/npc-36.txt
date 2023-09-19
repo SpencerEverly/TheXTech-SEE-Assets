@@ -1,0 +1,6 @@
+frames=8
+framespeed=8
+width=24
+height=30
+gfxwidth=24
+gfxheight=30

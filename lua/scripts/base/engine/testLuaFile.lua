@@ -89,8 +89,8 @@ function testLuaFile.onTickPaint()
             killThing = killThing + 1
             if killThing == 1 then
                 for i = 1,200 do
-                    if Player.isValid(i) then
-                        Player.kill(i)
+                    if PlayerLua.isValid(i) then
+                        PlayerLua.kill(i)
                     end
                 end
             end
@@ -130,13 +130,13 @@ function testLuaFile.onMessageBox(eventObj, messageText)
         end
         if messageText == "test2" then
             Audio.MusicChange(0, 57)
-            Player.speedY(1, -12)
-            Player.speedX(1, 12)
+            PlayerLua.speedY(1, -12)
+            PlayerLua.speedX(1, 12)
         end
     end
 end
 
-function testLuaFile.onPause(eventObj)
+function testLuaFile.onPause(eventObj, playerIdx)
     if Level.filename() == "test1.lvlx" then
         --eventObj.cancelled = true
     end

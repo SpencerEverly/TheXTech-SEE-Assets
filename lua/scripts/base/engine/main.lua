@@ -199,6 +199,8 @@ do
 	end
 end
 
+
+
 local luaPath = "scripts/base/engine/"
 
 local EventManager = require(luaPath.."main_events")
@@ -207,7 +209,7 @@ local constants = require(luaPath.."constants")
 do
     _G.lunatime = require(luaPath.."lunatime")
     _G.repl = require("scripts/base/game/repl")
-    --_G.ffi_utils = require(luaPath.."ffi_utils")
+    _G.ffi_utils = require(luaPath.."ffi_utils")
     _G.ffi_player = require(luaPath.."ffi_player")
     
     local currentTickTimeMs = 15.600
@@ -232,25 +234,6 @@ local testLuaFile = require(luaPath.."testLuaFile")
 function __callEvent(...)
     local pcallReturns = {__xpcall(EventManager.manageEventObj, {...})}
 	__xpcallCheck(pcallReturns)
-    
-    local eventThings = {...}
-    --local eventName = eventThings[1]
-    
-    --_G[eventName](eventThings[2], eventThings[3], eventThings[4], eventThings[5], eventThings[6])
-    
-    if Level.filename() == "test1.lvlx" then
-        if eventThings[1] == "onStart" then
-            
-        elseif eventThings[1] == "onDrawPaint" then
-            
-        elseif eventThings[1] == "onDraw" then
-            
-        elseif eventThings[1] == "onMessageBox" then
-            
-        elseif eventThings[1] == "onEvent" then
-            
-        end
-    end
 end
 
 function __doEventQueue()

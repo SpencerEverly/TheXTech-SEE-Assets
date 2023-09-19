@@ -239,7 +239,7 @@ repl.background = 1
 
 registerEvent(repl, "onKeyboardPress")
 registerEvent(repl, "onDrawPaint")
---registerEvent(repl, "onPasteText")
+registerEvent(repl, "onPasteText")
 
 function repl.onKeyboardPress(vk, repeated, chara)
 	if not (repl.activeInEpisode) then return end

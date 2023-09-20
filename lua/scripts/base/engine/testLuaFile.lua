@@ -28,7 +28,7 @@ Graphics.loadImage("graphics/ui/", "Time", 2)
 
 function testLuaFile.onStart()
     if Level.filename() == "test1.lvlx" then
-        Audio.MusicChange(0, 58)
+        Audio.MusicChange(0, "BGM_24Hour_08_Sunny.mp3")
     end
 end
 
@@ -126,10 +126,10 @@ end
 function testLuaFile.onMessageBox(eventObj, messageText)
     if Level.filename() == "test1.lvlx" then
         if messageText == "test" then
-            Audio.MusicChange(0, 24)
+            Audio.MusicChange(0, "Egypt Megalovania.wav")
         end
         if messageText == "test2" then
-            Audio.MusicChange(0, 57)
+            Audio.MusicChange(0, "mus_temvillage.ogg")
             PlayerLua.speedY(1, -12)
             PlayerLua.speedX(1, 12)
         end

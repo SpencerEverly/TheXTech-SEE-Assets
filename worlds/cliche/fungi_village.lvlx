@@ -1,12 +1,12 @@
 HEAD
-SZ:1;
+SZ:1;CPID:"TheXTech";
 HEAD_END
 SECTION
 SC:0;L:0;R:2112;T:-24;B:576;MZ:31;MF:"";BG:29;OE:1;
 SC:1;L:2496;R:3776;T:-24;B:576;MZ:31;MF:"";BG:28;
 SC:2;L:896;R:1696;T:680;B:1280;MZ:31;MF:"";BG:27;
 SC:3;L:-256;R:544;T:648;B:1248;MZ:24;MF:"music/mrpg-dungeon.spc";BG:26;
-SC:4;L:-1216;R:-416;T:8;B:608;MZ:31;MF:"music/mrpg-boss2.spc";BG:23;
+SC:4;L:-1216;R:-416;T:8;B:608;MZ:31;MF:"";BG:23;
 SC:5;L:-100000;R:-99200;T:-100600;B:-100000;MZ:0;MF:"";BG:0;
 SECTION_END
 STARTPOINT
@@ -1139,9 +1139,9 @@ ET:"P Switch - End";AS:0;AX:0;AY:0;
 ET:"Show Star";LH:["Toad 1"];LS:["Toad 2"];TE:"Show Star 2";TD:1;DS:1;AS:0;AX:0;AY:0;
 ET:"Show Star 2";SD:20;LS:["Star"];AS:0;AX:0;AY:0;
 ET:"Stole Treasure";LH:["Toad 3"];LS:["Toad 4"];SSS:["ID\:4\;MI\:0\;"];TE:"Lock Door";AS:0;AX:0;AY:0;
-ET:"Killed Boom";LH:["Not Exit"];LS:["Exit"];SSS:["ID\:4\;MI\:-2\;"];DS:1;AS:0;AX:0;AY:0;
+ET:"Killed Boom";LH:["Not Exit"];LS:["Exit"];SSS:["ID\:4\;MI\:31\;"];DS:1;AS:0;AX:0;AY:0;
 ET:"Lock Door";SD:63;LH:["Exit"];LS:["Not Exit"];TE:"Stole Treasure 2";DS:1;AS:0;AX:0;AY:0;
 ET:"Stole Treasure 2";MG:"Thief! Now I will show you my true form!";TE:"Stole Treasure 3";AS:0;AX:0;AY:0;
-ET:"Stole Treasure 3";SSS:["ID\:4\;MI\:24\;"];TE:"Stole Treasure 4";TD:5;AS:0;AX:0;AY:0;
+ET:"Stole Treasure 3";SSS:["ID\:4\;MI\:72\;"];TE:"Stole Treasure 4";TD:5;AS:0;AX:0;AY:0;
 ET:"Stole Treasure 4";LH:["Treasure"];AS:0;AX:0;AY:0;
 EVENTS_CLASSIC_END

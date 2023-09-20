@@ -1,5 +1,5 @@
 HEAD
-TL:"The Princess Cliche";IT:"marios_pad.lvlx";SZ:10;CD:"Redigit\n";
+TL:"The Princess Cliche";IT:"marios_pad.lvlx";SZ:10;CD:"Redigit\n";CPID:"TheXTech";
 HEAD_END
 TILES
 ID:26;X:352;Y:448;
@@ -1493,11 +1493,11 @@ ID:7;X:352;Y:-64;
 ID:29;X:-1056;Y:320;
 PATHS_END
 MUSICBOXES
-ID:1;X:704;Y:64;
-ID:10;X:1632;Y:64;
-ID:1;X:224;Y:0;
-ID:9;X:-896;Y:320;
-ID:1;X:416;Y:256;
+ID:18;X:704;Y:64;
+ID:20;X:1632;Y:64;
+ID:18;X:224;Y:0;
+ID:19;X:-896;Y:320;
+ID:18;X:416;Y:256;
 MUSICBOXES_END
 LEVELS
 ID:15;X:2080;Y:192;LT:"Star Road Station";LF:"star_road.lvlx";EI:1;EL:0;ET:0;ER:0;EB:0;BP:1;
